@@ -1,5 +1,5 @@
 mkdir -p .github/workflows && cat > .github/workflows/build.yml <<'EOF'
-name: Build
+name: n
 
 on:
   push:
