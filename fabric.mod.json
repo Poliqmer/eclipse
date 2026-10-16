@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "eclipse_client",
+  "version": "${version}",
+  "name": "Eclipse Client",
+  "description": "Modułowy klient HUD/render/trening dla Minecraft 1.21.11 z własnym Click GUI.",
+  "authors": ["Eclipse"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.eclipse.client.EclipseClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
